@@ -31,5 +31,5 @@ https://github.com/karpathy/char-rnn
 http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
 Docker  
-https://github.com/mbartoli/docker-char-rnn 
+https://github.com/mbartoli/docker-char-rnn  
 https://registry.hub.docker.com/u/mbartoli/char-rnn/ 

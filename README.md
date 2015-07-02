@@ -10,6 +10,11 @@ and then open a shell within the container
 ```
 docker run -i -t CONTAINER_ID /bin/bash
 ```
+Run
+```
+luarocks install nngraph
+luarocks install optim
+```
 Next, clone this repo, and run setup.sh.  
 
 # Training

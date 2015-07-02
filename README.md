@@ -10,7 +10,7 @@ and then open a shell within the container
 ```
 docker run -i -t CONTAINER_ID /bin/bash
 ```
-Run
+Then, in the new shell, run
 ```
 luarocks install nngraph
 luarocks install optim

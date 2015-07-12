@@ -1,7 +1,7 @@
 # twain-speak
 Trains a character-based language model on novels using recurrent neural networks, to generate text in the style of Mark Twain.
 
-# Setup
+## Setup
 Pull the docker repo
 ```
 docker pull mbartoli/char-rnn
@@ -17,20 +17,20 @@ luarocks install optim
 ```
 Next, clone this repo, and run setup.sh.  
 
-# Training
+## Training
 To train, run  
 ```
 sh train.sh 
 ```
 
-# Sampling 
+## Sampling 
 To generate text, edit ```sampling.sh``` and replace ```ENTER_CHECKPOINT_HERE``` with your model checkpoint found in ```/home/char-rnn/cv```.  Then run  
 ```
 sh sampling.sh
 ```
 
 
-# Additional Info
+## Additional Info
 See  
 https://github.com/karpathy/char-rnn  
 http://karpathy.github.io/2015/05/21/rnn-effectiveness/
